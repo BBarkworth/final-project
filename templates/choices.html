@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Teams
+{% endblock %}
+
+{% block main %}
+    <form action="/" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" name="team" placeholder="Team name" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Buy</button>
+        <!-- a placeholder and a button for input from the user -->
+    </form>
+{% endblock %}
