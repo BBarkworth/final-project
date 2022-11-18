@@ -5,16 +5,21 @@
 {% endblock %}
 
 {% block main %}
-    <form action="/" method="post">
+    <form action="/teams" method="post">
         <div class="mb-3">
-            <select autocomplete="off" autofocus class="form-control mx-auto w-auto" name="t">
+            <select autocomplete="off" autofocus class="form-control mx-auto w-auto" name="team_choice">
                 <option disabled selected value="">Teams</option>
-                {% for opt in options %}
-                    <option>{{ opt[0] }}</option>
-                    <!-- options passed through as list - work out why this is happening, sqlite rather than CS50 library?? -->
+                {% for row in all_teams %}
+                    <option>{{ row['name'] }}</option>
                 {% endfor %}
             </select>
         </div>
-        <button class="btn btn-primary" type="submit">Submit</button>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn btn-primary mr-1" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
     </form>
 {% endblock %}
