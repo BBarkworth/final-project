@@ -22,18 +22,16 @@ app.config["SESSION_TYPE"] = "filesystem"
 Session(app)
 
 conn = sqlite3.connect('nflteamsdb.sqlite', check_same_thread=False)
-
+conn.row_factory = sqlite3.Row
+# dict cursor for Sqlite library
 cur = conn.cursor()
 
-cur.execute('DROP TABLE IF EXISTS Teams')
-
-cur.execute('DROP TABLE IF EXISTS Fixtures')
-
-cur.execute('''
-CREATE TABLE Teams (id INTEGER PRIMARY KEY NOT NULL, name TEXT NOT NULL, abbreviation TEXT NOT NULL, conference TEXT NOT NULL, division TEXT NOT NULL, rating INTEGER)''')
-
-cur.execute('''
-CREATE TABLE Fixtures (fixture_id INTEGER PRIMARY KEY NOT NULL, week TEXT NOT NULL, ratingone INTEGER, teamone TEXT NOT NULL, at TEXT, teamtwo TEXT NOT NULL, ratingtwo INTEGER)''') 
+cur.executescript("""
+    DROP TABLE IF EXISTS Teams;
+    DROP TABLE IF EXISTS Fixtures;
+    CREATE TABLE Teams(id INTEGER PRIMARY KEY NOT NULL, name TEXT NOT NULL, abbreviation TEXT NOT NULL, conference TEXT NOT NULL, division TEXT NOT NULL, rating INTEGER);
+    CREATE TABLE Fixtures(fixture_id INTEGER PRIMARY KEY NOT NULL, week TEXT NOT NULL, ratingone INTEGER, teamone TEXT NOT NULL, teamtwo TEXT NOT NULL, ratingtwo INTEGER);
+    """)
 
 scores = {}
 start = 1500
@@ -124,51 +122,27 @@ for key, value in pre_season_ratings.items():
     cur.execute('''UPDATE Teams SET rating = ? WHERE name = ?''', (value, key))
 conn.commit
 
-with open('2022fixtures.csv', 'r') as in_file:
+with open('2022fixturesfixed.csv', 'r') as in_file:
     reader = csv.reader(in_file)
     # skip header
     next(reader)
     for row in reader:
         if int(row[0]) < 10:
-            if row[6] == row[7] and row[4] == '@':
-                temp_rating = scores[row[5]] + 100
-                update = ties(scores[row[3]], temp_rating)
-                scores.update({row[3]:update[0]})
-                scores.update({row[5]:update[1]})
-            elif row[6] == row[7] and row[4] != '@':
+            if row[5] == row[6]:
                 temp_rating = scores[row[3]] + 100
-                update = ties(temp_rating, scores[row[5]])
+                update = ties(temp_rating, scores[row[4]])
                 scores.update({row[3]:update[0]})
-                scores.update({row[5]:update[1]})
-            elif row[4] == '@':
-                temp_rating = scores[row[5]] + 100
-                update = rating_change(scores[row[3]], temp_rating)
-                scores.update({row[3]:update[0]})
-                scores.update({row[5]:update[1]})
+                scores.update({row[4]:update[1]})
             else:
                 temp_rating = scores[row[3]] + 100
-                update = rating_change(temp_rating, scores[row[5]])
+                update = rating_change(temp_rating, scores[row[4]])
                 scores.update({row[3]:update[0]})
-                scores.update({row[5]:update[1]})
+                scores.update({row[4]:update[1]})
         else:
             break
 # 2022 schedule
 
-'''
-options = cur.execute('SELECT name, rating FROM Teams ORDER BY name').fetchall()
-print(options)
-for option in options:
-    print("OPTIONS: ", option)
-test_list = []
-for row in cur.execute('SELECT name,rating FROM Teams ORDER BY name').fetchall():
-    test_list.append(row)
-print("TEST LIST: ", test_list)
-''' 
-# Jinja templating tests
-
-#print(rating(scores))
-
-with open('2022fixtures.csv', 'r') as in_file:
+with open('2022fixturesfixed.csv', 'r') as in_file:
     reader = csv.reader(in_file)
     # skip header
     next(reader)
@@ -176,35 +150,33 @@ with open('2022fixtures.csv', 'r') as in_file:
     for row in reader:
         week = row[0]
         team_one = row[3]
-        home_or_away = row[4]
-        team_two = row[5]
-        cur.execute('''INSERT INTO Fixtures (week, teamone, at, teamtwo) VALUES (?,?,?,?)''', (week, team_one, home_or_away, team_two))
-        cur.execute('''UPDATE Fixtures set ratingone = (SELECT rating FROM Teams WHERE name = ?)''', (team_one,))
-        cur.execute('''UPDATE Fixtures set ratingtwo = (SELECT rating FROM Teams WHERE name = ?)''', (team_two,))
+        team_two = row[4]
+        cur.execute('''INSERT INTO Fixtures (week, teamone, teamtwo) VALUES (?,?,?)''', (week, team_one, team_two))
+        cur.execute('''UPDATE Fixtures set ratingone = (SELECT rating FROM Teams WHERE name = ?) WHERE teamone = ?''', (team_one, team_one))
+        cur.execute('''UPDATE Fixtures set ratingtwo = (SELECT rating FROM Teams WHERE name = ?) WHERE teamtwo = ?''', (team_two, team_two))
     conn.commit()
 
 @app.route("/")
 def home():
     return render_template("home.html")
 
-'''
+
 @app.route("/scores", methods= ["GET", "POST"])
 def scores():
     if request.method == "GET":
         return render_template("scores.html")
 
     else:
-'''
+
 
 @app.route("/teams", methods= ["GET", "POST"])
 def teams():
     if request.method == "GET":
-        test_list = []
-        for row in cur.execute('SELECT name FROM Teams ORDER BY name').fetchall():
-            test_list.append(row)
-        return render_template("choices.html", test_list = test_list)
+        all_teams = cur.execute('SELECT name FROM Teams ORDER BY name')
+        return render_template("choices.html", all_teams = all_teams)
     else:
-        choice = request.form.get("t")
-        # include apology page with error + message
-        fixture_data = cur.execute('''SELECT week, ratingone, teamone, at, teamtwo, ratingtwo FROM Fixtures WHERE teamone = ? OR teamtwo = ?''', (choice, choice))
+        choice = request.form.get("team_choice")
+        if not choice:
+            return render_template("apology.html")
+        fixture_data = cur.execute('''SELECT week, ratingone, teamone, teamtwo, ratingtwo FROM Fixtures WHERE teamone = ? OR teamtwo = ?''', (choice, choice))
         return render_template("schedule.html", fixture_data = fixture_data, choice = choice)
