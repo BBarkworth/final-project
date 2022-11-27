@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block main %}
+<div class="container">
     <form action="/teams" method="post">
         <div class="mb-3">
             <select autocomplete="off" autofocus class="form-control mx-auto w-auto" name="team_choice">
@@ -14,6 +15,7 @@
                 {% endfor %}
             </select>
         </div>
+        <!-- a loop for all 32 teams as form options along with a submit button-->
         <div class="container">
             <div class="row">
                 <div class="col text-center">
@@ -22,4 +24,5 @@
             </div>
         </div>
     </form>
+</div>
 {% endblock %}
