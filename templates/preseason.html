@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Preseason Ratings
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <h1> Preseason Ratings</h1>
+    <table class="table table-striped table-hover w-25 table-responsive{-sm}">
+        <thead>
+            <tr>
+                <th scope="col" class="text-left">Team</th>
+                <th scope="col" class="text-left">Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for pre in preseason %}
+                <tr>
+                    <div class="section">
+                        <td class="text-left">{{pre['name']}}</td>
+                    </div>
+                    <div class="section">
+                        <td class="text-left">{{pre['rating']}}</td>
+                    </div>
+            {% endfor %}
+                </tr>
+        </tbody>
+    </table>
+</div>
+<!-- a for loop for the name and preseason ratings of each NFL team -->
+{% endblock %}

@@ -3,3 +3,26 @@
 {% block title %}
     Scores
 {% endblock %}
+
+{% block main %}
+<div class="container">
+    <form action="/scores" method="post">
+        <div class="mb-3">
+            <select autocomplete="off" autofocus class="form-control mx-auto w-auto" name="week">
+                <option disabled selected value="">Week</option>
+                {% for w in weeks %}
+                    <option>{{ w['week'] }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <button class="btn btn-primary mr-1" type="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<!-- a for loop for each week of the regular season -->
+{% endblock %}
