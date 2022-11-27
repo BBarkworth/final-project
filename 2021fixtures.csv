@@ -1,0 +1,286 @@
+Week,Date,Winner/tie,Loser/tie,PtsW,PtsL
+1,2021-09-09,Tampa Bay Buccaneers,Dallas Cowboys,31,29
+1,2021-09-12,Atlanta Falcons,Philadelphia Eagles,6,32
+1,2021-09-12,Buffalo Bills,Pittsburgh Steelers,16,23
+1,2021-09-12,Carolina Panthers,New York Jets,19,14
+1,2021-09-12,Cincinnati Bengals,Minnesota Vikings,27,24
+1,2021-09-12,Indianapolis Colts,Seattle Seahawks,16,28
+1,2021-09-12,Tennessee Titans,Arizona Cardinals,13,38
+1,2021-09-12,Detroit Lions,San Francisco 49ers,33,41
+1,2021-09-12,Houston Texans,Jacksonville Jaguars,37,21
+1,2021-09-12,Washington Commanders,Los Angeles Chargers,16,20
+1,2021-09-12,Kansas City Chiefs,Cleveland Browns,33,29
+1,2021-09-12,New York Giants,Denver Broncos,13,27
+1,2021-09-12,New Orleans Saints,Green Bay Packers,38,3
+1,2021-09-12,New England Patriots,Miami Dolphins,16,17
+1,2021-09-12,Los Angeles Rams,Chicago Bears,34,14
+1,2021-09-13,Las Vegas Raiders,Baltimore Ravens,33,27
+2,2021-09-16,Washington Commanders,New York Giants,30,29
+2,2021-09-19,Miami Dolphins,Buffalo Bills,0,35
+2,2021-09-19,Carolina Panthers,New Orleans Saints,26,7
+2,2021-09-19,Chicago Bears,Cincinnati Bengals,20,17
+2,2021-09-19,Cleveland Browns,Houston Texans,31,21
+2,2021-09-19,Indianapolis Colts,Los Angeles Rams,24,27
+2,2021-09-19,Jacksonville Jaguars,Denver Broncos,13,23
+2,2021-09-19,New York Jets,New England Patriots,6,25
+2,2021-09-19,Philadelphia Eagles,San Francisco 49ers,11,17
+2,2021-09-19,Pittsburgh Steelers,Las Vegas Raiders,17,26
+2,2021-09-19,Tampa Bay Buccaneers,Atlanta Falcons,48,25
+2,2021-09-19,Arizona Cardinals,Minnesota Vikings,34,33
+2,2021-09-19,Los Angeles Chargers,Dallas Cowboys,17,20
+2,2021-09-19,Seattle Seahawks,Tennessee Titans,30,33
+2,2021-09-19,Baltimore Ravens,Kansas City Chiefs,36,35
+2,2021-09-20,Green Bay Packers,Detroit Lions,35,17
+3,2021-09-23,Houston Texans,Carolina Panthers,9,24
+3,2021-09-26,New York Giants,Atlanta Falcons,14,17
+3,2021-09-26,Buffalo Bills,Washington Commanders,43,21
+3,2021-09-26,Cleveland Browns,Chicago Bears,26,6
+3,2021-09-26,Pittsburgh Steelers,Cincinnati Bengals,10,24
+3,2021-09-26,Tennessee Titans,Indianapolis Colts,25,16
+3,2021-09-26,Jacksonville Jaguars,Arizona Cardinals,19,31
+3,2021-09-26,Detroit Lions,Baltimore Ravens,17,19
+3,2021-09-26,Kansas City Chiefs,Los Angeles Chargers,24,30
+3,2021-09-26,New England Patriots,New Orleans Saints,13,28
+3,2021-09-26,Denver Broncos,New York Jets,26,0
+3,2021-09-26,Las Vegas Raiders,Miami Dolphins,31,28
+3,2021-09-26,Minnesota Vikings,Seattle Seahawks,30,17
+3,2021-09-26,Los Angeles Rams,Tampa Bay Buccaneers,34,24
+3,2021-09-26,San Francisco 49ers,Green Bay Packers,28,30
+3,2021-09-27,Dallas Cowboys,Philadelphia Eagles,41,21
+4,2021-09-30,Cincinnati Bengals,Jacksonville Jaguars,24,21
+4,2021-10-03,Atlanta Falcons,Washington Commanders,30,34
+4,2021-10-03,Buffalo Bills,Houston Texans,40,0
+4,2021-10-03,Dallas Cowboys,Carolina Panthers,36,28
+4,2021-10-03,Chicago Bears,Detroit Lions,24,14
+4,2021-10-03,Minnesota Vikings,Cleveland Browns,7,14
+4,2021-10-03,Miami Dolphins,Indianapolis Colts,17,27
+4,2021-10-03,Philadelphia Eagles,Kansas City Chiefs,30,42
+4,2021-10-03,New Orleans Saints,New York Giants,21,27
+4,2021-10-03,New York Jets,Tennessee Titans,27,24
+4,2021-10-03,Los Angeles Rams,Arizona Cardinals,20,37
+4,2021-10-03,San Francisco 49ers,Seattle Seahawks,21,28
+4,2021-10-03,Denver Broncos,Baltimore Ravens,7,23
+4,2021-10-03,Green Bay Packers,Pittsburgh Steelers,27,17
+4,2021-10-03,New England Patriots,Tampa Bay Buccaneers,17,19
+4,2021-10-04,Los Angeles Chargers,Las Vegas Raiders,28,14
+5,2021-10-07,Seattle Seahawks,Los Angeles Rams,17,26
+5,2021-10-10,Atlanta Falcons,New York Jets,27,20
+5,2021-10-10,Carolina Panthers,Philadelphia Eagles,18,21
+5,2021-10-10,Cincinnati Bengals,Green Bay Packers,22,25
+5,2021-10-10,Pittsburgh Steelers,Denver Broncos,27,19
+5,2021-10-10,Minnesota Vikings,Detroit Lions,19,17
+5,2021-10-10,Houston Texans,New England Patriots,22,25
+5,2021-10-10,Jacksonville Jaguars,Tennessee Titans,19,37
+5,2021-10-10,Tampa Bay Buccaneers,Miami Dolphins,45,17
+5,2021-10-10,Washington Commanders,New Orleans Saints,22,33
+5,2021-10-10,Las Vegas Raiders,Chicago Bears,9,20
+5,2021-10-10,Los Angeles Chargers,Cleveland Browns,47,42
+5,2021-10-10,Arizona Cardinals,San Francisco 49ers,17,10
+5,2021-10-10,Dallas Cowboys,New York Giants,44,20
+5,2021-10-10,Kansas City Chiefs,Buffalo Bills,20,38
+5,2021-10-11,Baltimore Ravens,Indianapolis Colts,31,25
+6,2021-10-14,Philadelphia Eagles,Tampa Bay Buccaneers,22,28
+6,2021-10-17,Jacksonville Jaguars,Miami Dolphins,23,20
+6,2021-10-17,Carolina Panthers,Minnesota Vikings,28,34
+6,2021-10-17,Chicago Bears,Green Bay Packers,14,24
+6,2021-10-17,Detroit Lions,Cincinnati Bengals,11,34
+6,2021-10-17,Indianapolis Colts,Houston Texans,31,3
+6,2021-10-17,Washington Commanders,Kansas City Chiefs,13,31
+6,2021-10-17,New York Giants,Los Angeles Rams,11,38
+6,2021-10-17,Baltimore Ravens,Los Angeles Chargers,34,6
+6,2021-10-17,Cleveland Browns,Arizona Cardinals,14,37
+6,2021-10-17,New England Patriots,Dallas Cowboys,29,35
+6,2021-10-17,Denver Broncos,Las Vegas Raiders,24,34
+6,2021-10-17,Pittsburgh Steelers,Seattle Seahawks,23,20
+6,2021-10-18,Tennessee Titans,Buffalo Bills,34,31
+7,2021-10-21,Cleveland Browns,Denver Broncos,17,14
+7,2021-10-24,Miami Dolphins,Atlanta Falcons,28,30
+7,2021-10-24,New York Giants,Carolina Panthers,25,3
+7,2021-10-24,Baltimore Ravens,Cincinnati Bengals,17,41
+7,2021-10-24,Green Bay Packers,Washington Commanders,24,10
+7,2021-10-24,Tennessee Titans,Kansas City Chiefs,27,3
+7,2021-10-24,New England Patriots,New York Jets,54,13
+7,2021-10-24,Los Angeles Rams,Detroit Lions,28,19
+7,2021-10-24,Las Vegas Raiders,Philadelphia Eagles,33,22
+7,2021-10-24,Tampa Bay Buccaneers,Chicago Bears,38,3
+7,2021-10-24,Arizona Cardinals,Houston Texans,31,5
+7,2021-10-24,San Francisco 49ers,Indianapolis Colts,18,30
+7,2021-10-25,Seattle Seahawks,New Orleans Saints,10,13
+8,2021-10-28,Arizona Cardinals,Green Bay Packers,21,24
+8,2021-10-31,Atlanta Falcons,Carolina Panthers,13,19
+8,2021-10-31,Buffalo Bills,Miami Dolphins,26,11
+8,2021-10-31,Chicago Bears,San Francisco 49ers,22,33
+8,2021-10-31,New York Jets,Cincinnati Bengals,34,31
+8,2021-10-31,Cleveland Browns,Pittsburgh Steelers,10,15
+8,2021-10-31,Indianapolis Colts,Tennessee Titans,31,34
+8,2021-10-31,Detroit Lions,Philadelphia Eagles,6,44
+8,2021-10-31,Houston Texans,Los Angeles Rams,22,38
+8,2021-10-31,Seattle Seahawks,Jacksonville Jaguars,31,7
+8,2021-10-31,Los Angeles Chargers,New England Patriots,24,27
+8,2021-10-31,New Orleans Saints,Tampa Bay Buccaneers,36,27
+8,2021-10-31,Denver Broncos,Washington Commanders,17,10
+8,2021-10-31,Minnesota Vikings,Dallas Cowboys,16,20
+8,2021-11-01,Kansas City Chiefs,New York Giants,20,17
+9,2021-11-04,Indianapolis Colts,New York Jets,45,30
+9,2021-11-07,New Orleans Saints,Atlanta Falcons,25,27
+9,2021-11-07,Jacksonville Jaguars,Buffalo Bills,9,6
+9,2021-11-07,Dallas Cowboys,Denver Broncos,16,30
+9,2021-11-07,Baltimore Ravens,Minnesota Vikings,34,31
+9,2021-11-07,Carolina Panthers,New England Patriots,6,24
+9,2021-11-07,Cincinnati Bengals,Cleveland Browns,16,41
+9,2021-11-07,Miami Dolphins,Houston Texans,17,9
+9,2021-11-07,New York Giants,Las Vegas Raiders,23,16
+9,2021-11-07,Philadelphia Eagles,Los Angeles Chargers,24,27
+9,2021-11-07,San Francisco 49ers,Arizona Cardinals,17,31
+9,2021-11-07,Kansas City Chiefs,Green Bay Packers,13,7
+9,2021-11-07,Los Angeles Rams,Tennessee Titans,16,28
+9,2021-11-08,Pittsburgh Steelers,Chicago Bears,29,27
+10,2021-11-11,Miami Dolphins,Baltimore Ravens,22,10
+10,2021-11-14,Dallas Cowboys,Atlanta Falcons,43,3
+10,2021-11-14,New York Jets,Buffalo Bills,17,45
+10,2021-11-14,Pittsburgh Steelers,Detroit Lions,16,16
+10,2021-11-14,Tennessee Titans,New Orleans Saints,23,21
+10,2021-11-14,Washington Commanders,Tampa Bay Buccaneers,29,19
+10,2021-11-14,New England Patriots,Cleveland Browns,45,7
+10,2021-11-14,Indianapolis Colts,Jacksonville Jaguars,23,17
+10,2021-11-14,Los Angeles Chargers,Minnesota Vikings,20,27
+10,2021-11-14,Arizona Cardinals,Carolina Panthers,10,34
+10,2021-11-14,Denver Broncos,Philadelphia Eagles,13,30
+10,2021-11-14,Green Bay Packers,Seattle Seahawks,17,0
+10,2021-11-14,Las Vegas Raiders,Kansas City Chiefs,14,41
+10,2021-11-15,San Francisco 49ers,Los Angeles Rams,31,10
+11,2021-11-18,Atlanta Falcons,New England Patriots,0,25
+11,2021-11-21,Buffalo Bills,Indianapolis Colts,15,41
+11,2021-11-21,Chicago Bears,Baltimore Ravens,13,16
+11,2021-11-21,Tennessee Titans,Houston Texans,13,22
+11,2021-11-21,Jacksonville Jaguars,San Francisco 49ers,10,30
+11,2021-11-21,Philadelphia Eagles,New Orleans Saints,40,29
+11,2021-11-21,Carolina Panthers,Washington Commanders,21,27
+11,2021-11-21,Cleveland Browns,Detroit Lions,13,10
+11,2021-11-21,Minnesota Vikings,Green Bay Packers,34,31
+11,2021-11-21,New York Jets,Miami Dolphins,17,24
+11,2021-11-21,Las Vegas Raiders,Cincinnati Bengals,13,32
+11,2021-11-21,Kansas City Chiefs,Dallas Cowboys,19,9
+11,2021-11-21,Seattle Seahawks,Arizona Cardinals,13,23
+11,2021-11-21,Los Angeles Chargers,Pittsburgh Steelers,41,37
+11,2021-11-22,Tampa Bay Buccaneers,New York Giants,30,10
+12,2021-11-25,Detroit Lions,Chicago Bears,14,16
+12,2021-11-25,Dallas Cowboys,Las Vegas Raiders,33,36
+12,2021-11-25,New Orleans Saints,Buffalo Bills,6,31
+12,2021-11-28,Jacksonville Jaguars,Atlanta Falcons,14,21
+12,2021-11-28,Cincinnati Bengals,Pittsburgh Steelers,41,10
+12,2021-11-28,Houston Texans,New York Jets,14,21
+12,2021-11-28,New York Giants,Philadelphia Eagles,13,7
+12,2021-11-28,Miami Dolphins,Carolina Panthers,33,10
+12,2021-11-28,Indianapolis Colts,Tampa Bay Buccaneers,31,38
+12,2021-11-28,New England Patriots,Tennessee Titans,36,13
+12,2021-11-28,Denver Broncos,Los Angeles Chargers,28,13
+12,2021-11-28,San Francisco 49ers,Minnesota Vikings,34,26
+12,2021-11-28,Green Bay Packers,Los Angeles Rams,36,28
+12,2021-11-28,Baltimore Ravens,Cleveland Browns,16,10
+12,2021-11-29,Washington Commanders,Seattle Seahawks,17,15
+13,2021-12-02,New Orleans Saints,Dallas Cowboys,17,27
+13,2021-12-05,Atlanta Falcons,Tampa Bay Buccaneers,17,30
+13,2021-12-05,Chicago Bears,Arizona Cardinals,22,33
+13,2021-12-05,Cincinnati Bengals,Los Angeles Chargers,22,41
+13,2021-12-05,Detroit Lions,Minnesota Vikings,29,27
+13,2021-12-05,New York Jets,Philadelphia Eagles,18,33
+13,2021-12-05,Houston Texans,Indianapolis Colts,0,31
+13,2021-12-05,Miami Dolphins,New York Giants,20,9
+13,2021-12-05,Seattle Seahawks,San Francisco 49ers,30,23
+13,2021-12-05,Las Vegas Raiders,Washington Commanders,15,17
+13,2021-12-05,Los Angeles Rams,Jacksonville Jaguars,37,7
+13,2021-12-05,Pittsburgh Steelers,Baltimore Ravens,20,19
+13,2021-12-05,Kansas City Chiefs,Denver Broncos,22,9
+13,2021-12-06,Buffalo Bills,New England Patriots,10,14
+14,2021-12-09,Minnesota Vikings,Pittsburgh Steelers,36,28
+14,2021-12-12,Carolina Panthers,Atlanta Falcons,21,29
+14,2021-12-12,Cincinnati Bengals,San Francisco 49ers,23,26
+14,2021-12-12,Cleveland Browns,Baltimore Ravens,24,22
+14,2021-12-12,Washington Commanders,Dallas Cowboys,20,27
+14,2021-12-12,Houston Texans,Seattle Seahawks,13,33
+14,2021-12-12,Tennessee Titans,Jacksonville Jaguars,20,0
+14,2021-12-12,Kansas City Chiefs,Las Vegas Raiders,48,9
+14,2021-12-12,New York Jets,New Orleans Saints,9,30
+14,2021-12-12,Denver Broncos,Detroit Lions,38,10
+14,2021-12-12,Los Angeles Chargers,New York Giants,37,21
+14,2021-12-12,Tampa Bay Buccaneers,Buffalo Bills,33,27
+14,2021-12-12,Green Bay Packers,Chicago Bears,45,30
+14,2021-12-13,Arizona Cardinals,Los Angeles Rams,23,30
+15,2021-12-16,Los Angeles Chargers,Kansas City Chiefs,28,34
+15,2021-12-18,Indianapolis Colts,New England Patriots,27,17
+15,2021-12-19,Buffalo Bills,Carolina Panthers,31,14
+15,2021-12-19,Detroit Lions,Arizona Cardinals,30,12
+15,2021-12-19,New York Giants,Dallas Cowboys,6,21
+15,2021-12-19,Baltimore Ravens,Green Bay Packers,30,31
+15,2021-12-19,Jacksonville Jaguars,Houston Texans,16,30
+15,2021-12-19,Miami Dolphins,New York Jets,31,24
+15,2021-12-19,Pittsburgh Steelers,Tennessee Titans,19,13
+15,2021-12-19,San Francisco 49ers,Atlanta Falcons,31,13
+15,2021-12-19,Denver Broncos,Cincinnati Bengals,10,15
+15,2021-12-19,Tampa Bay Buccaneers,New Orleans Saints,0,9
+15,2021-12-20,Cleveland Browns,Las Vegas Raiders,14,16
+15,2021-12-20,Chicago Bears,Minnesota Vikings,9,17
+15,2021-12-21,Philadelphia Eagles,Washington Commanders,27,17
+15,2021-12-21,Los Angeles Rams,Seattle Seahawks,20,10
+16,2021-12-23,Tennessee Titans,San Francisco 49ers,20,17
+16,2021-12-25,Green Bay Packers,Cleveland Browns,24,22
+16,2021-12-25,Arizona Cardinals,Indianapolis Colts,16,22
+16,2021-12-26,Atlanta Falcons,Detroit Lions,20,16
+16,2021-12-26,New England Patriots,Buffalo Bills,21,33
+16,2021-12-26,Carolina Panthers,Tampa Bay Buccaneers,6,32
+16,2021-12-26,Cincinnati Bengals,Baltimore Ravens,41,21
+16,2021-12-26,Houston Texans,Los Angeles Chargers,41,29
+16,2021-12-26,New York Jets,Jacksonville Jaguars,26,21
+16,2021-12-26,Minnesota Vikings,Los Angeles Rams,23,30
+16,2021-12-26,Philadelphia Eagles,New York Giants,34,10
+16,2021-12-26,Seattle Seahawks,Chicago Bears,24,25
+16,2021-12-26,Las Vegas Raiders,Denver Broncos,17,13
+16,2021-12-26,Kansas City Chiefs,Pittsburgh Steelers,36,10
+16,2021-12-26,Dallas Cowboys,Washington Commanders,56,14
+16,2021-12-27,New Orleans Saints,Miami Dolphins,3,20
+17,2022-01-02,Buffalo Bills,Atlanta Falcons,29,15
+17,2022-01-02,New Orleans Saints,Carolina Panthers,18,10
+17,2022-01-02,Chicago Bears,New York Giants,29,3
+17,2022-01-02,Cincinnati Bengals,Kansas City Chiefs,34,31
+17,2022-01-02,Indianapolis Colts,Las Vegas Raiders,20,23
+17,2022-01-02,Dallas Cowboys,Arizona Cardinals,22,25
+17,2022-01-02,New England Patriots,Jacksonville Jaguars,50,10
+17,2022-01-02,Tennessee Titans,Miami Dolphins,34,3
+17,2022-01-02,New York Jets,Tampa Bay Buccaneers,24,28
+17,2022-01-02,Washington Commanders,Philadelphia Eagles,16,20
+17,2022-01-02,Los Angeles Chargers,Denver Broncos,34,13
+17,2022-01-02,San Francisco 49ers,Houston Texans,23,7
+17,2022-01-02,Seattle Seahawks,Detroit Lions,51,29
+17,2022-01-02,Baltimore Ravens,Los Angeles Rams,19,20
+17,2022-01-02,Green Bay Packers,Minnesota Vikings,37,10
+17,2022-01-03,Pittsburgh Steelers,Cleveland Browns,26,14
+18,2022-01-08,Denver Broncos,Kansas City Chiefs,24,28
+18,2022-01-08,Philadelphia Eagles,Dallas Cowboys,26,51
+18,2022-01-09,Atlanta Falcons,New Orleans Saints,20,30
+18,2022-01-09,Buffalo Bills,New York Jets,27,10
+18,2022-01-09,Tampa Bay Buccaneers,Carolina Panthers,41,17
+18,2022-01-09,Minnesota Vikings,Chicago Bears,31,17
+18,2022-01-09,Cleveland Browns,Cincinnati Bengals,21,16
+18,2022-01-09,Jacksonville Jaguars,Indianapolis Colts,26,11
+18,2022-01-09,Detroit Lions,Green Bay Packers,37,30
+18,2022-01-09,Houston Texans,Tennessee Titans,25,28
+18,2022-01-09,Miami Dolphins,New England Patriots,33,24
+18,2022-01-09,New York Giants,Washington Commanders,7,22
+18,2022-01-09,Baltimore Ravens,Pittsburgh Steelers,13,16
+18,2022-01-09,Arizona Cardinals,Seattle Seahawks,30,38
+18,2022-01-09,Los Angeles Rams,San Francisco 49ers,24,27
+18,2022-01-09,Las Vegas Raiders,Los Angeles Chargers,35,32
+WildCard,2022-01-15,Cincinnati Bengals,Las Vegas Raiders,26,19
+WildCard,2022-01-15,Buffalo Bills,New England Patriots,47,17
+WildCard,2022-01-16,Tampa Bay Buccaneers,Philadelphia Eagles,31,15
+WildCard,2022-01-16,Dallas Cowboys,San Francisco 49ers,17,23
+WildCard,2022-01-16,Kansas City Chiefs,Pittsburgh Steelers,42,21
+WildCard,2022-01-17,Los Angeles Rams,Arizona Cardinals,34,11
+Division,2022-01-22,Tennessee Titans,Cincinnati Bengals,16,19
+Division,2022-01-22,Green Bay Packers,San Francisco 49ers,10,13
+Division,2022-01-23,Tampa Bay Buccaneers,Los Angeles Rams,27,30
+Division,2022-01-23,Kansas City Chiefs,Buffalo Bills,42,36
+ConfChamp,2022-01-30,Kansas City Chiefs,Cincinnati Bengals,24,27
+ConfChamp,2022-01-30,Los Angeles Rams,San Francisco 49ers,20,17
+SuperBowl,2022-02-13,Los Angeles Rams,Cincinnati Bengals,23,20
