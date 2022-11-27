@@ -271,7 +271,6 @@ def scores():
 
 @app.route("/preseason", methods= ["GET"])
 def preseason():
-    if request.method == "GET":
-        preseason = cur.execute('SELECT name, rating FROM Teams')
-        return render_template("preseason.html", preseason = preseason)
+    preseason = cur.execute('SELECT name, rating FROM Teams')
+    return render_template("preseason.html", preseason = preseason)
 # route for showing preseason ratings for each team
