@@ -37,7 +37,7 @@ for more information: https://elliotchance.medium.com/elo-rating-system-implemen
 The tools file consists of various functions that are used in the main app file. 
 These include:
 * `rating_change`: applies the Elo formula to the respective ratings of the teams playing each other
-* `rating`: converts the ratings into a range of 1-5 via log10 and data normalisation
+* `rating`: converts the ratings into a range of 1-5 via $log_{10}$ and data normalisation
 * `ties`: which is similar to `rating_change` but is used for ties (this was kept separate for the sake of clarity in the main app file)
 * `carry_over`: ensures teams retain only 75% of their rating from previous seasons to ensure the ratings are weighted more towards the latest season.
 
