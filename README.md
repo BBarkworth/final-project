@@ -31,7 +31,7 @@ R_{1}^{'} = R_{1} + K(S_{1} - \frac{E_{1}}{E_{1} + E_{2}})
 ```math
 R_{2}^{'} = R_{2} + K(S_{2} - \frac{E_{2}}{E_{1} + E_{2}}) 
 ```
-link for more information: https://elliotchance.medium.com/elo-rating-system-implemented-in-single-sql-select-9511bdff6434
+for more information: https://elliotchance.medium.com/elo-rating-system-implemented-in-single-sql-select-9511bdff6434
 
 ### **Python Functions**
 The tools file consists of various functions that are used in the main app file. 
