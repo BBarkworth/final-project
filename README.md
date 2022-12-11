@@ -1,8 +1,19 @@
 # NFL Strength of Schedule Web App
-
+### **Background**
 This program is my final project for the CS50 course. It's a web app that uses data received from the 2020 and 2021 seasons to provide a base rating for each team going into the 2022 season. 
 
 Through data received from an API, it processes up-to-date results from the NFL and converts them into a rating that is applied to each team. This rating represents the current strength of a team based on how they have performed in the 2022 season.
+
+### **Set Up**
+#### 1. Cloning
+First, clone this repository in the directory that you would like to store this project by running: 
+`git@github.com:BBarkworth/final-project.git`
+
+#### 2. Set up virtual environment and install Flask
+Install Flask by visiting this [site](https://flask.palletsprojects.com/en/2.2.x/installation/#install-flask) and following the instructions.
+
+#### 3. Run Flask
+Enter `Flask run` in the command line in the project directory and follow the hyperlink to access a local version of this project.
 
 ### **The Rating System**
 The rating system utilises an Elo formula that weights the results of a game based on the difference in quality between teams rather than assuming each win is worth the same amount of points. 
@@ -23,7 +34,7 @@ R_{2}^{'} = R_{2} + K(S_{2} - \frac{E_{2}}{E_{1} + E_{2}})
 ```
 link for more information: https://elliotchance.medium.com/elo-rating-system-implemented-in-single-sql-select-9511bdff6434
 
-### **Python Files**
+### **Python Functions**
 The tools file consists of various functions that are used in the main app file. 
 These include:
 * `rating_change`: applies the Elo formula to the respective ratings of the teams playing each other
@@ -41,9 +52,9 @@ The preseason route shows the rating for each team going into the season.
 ### **Minimum Version Requirements**
 * Python 3.9
 * Sqlite 3.39.3
-* Flask==2.2.2
+* Flask 2.2.2
 
-Sources
-[FiveThirtyEight] (https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/) 
-[Metin's Media and Math] (https://metinmediamath.wordpress.com/2013/11/27/how-to-calculate-the-elo-rating-including-example/comment-page-2/) 
-[Pro Football Reference] (https://www.pro-football-reference.com/)
+### **Sources**
+1. [FiveThirtyEight](https://fivethirtyeight.com/features/how-we-calculate-nba-elo-ratings/)
+2. [Metin's Media and Math](https://metinmediamath.wordpress.com/2013/11/27/how-to-calculate-the-elo-rating-including-example/comment-page-2/)
+3. [Pro Football Reference](https://www.pro-football-reference.com/)
