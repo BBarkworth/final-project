@@ -19,7 +19,6 @@ Enter `Flask run` in the command line in the project directory and follow the hy
 The rating system utilises an Elo formula that weights the results of a game based on the difference in quality between teams rather than assuming each win is worth the same amount of points. 
 Results were scaled by taking the logarithm and normalised so they were between 1 and 5, with 1 being the worst and five being the best.
 
-formula: 
 ```math
 E_1{=10^{^{\frac{R_{1}}{400}}}}
 ```
