@@ -1,5 +1,4 @@
 # NFL Strength of Schedule Web App
-### **Video Demo:**  https://youtu.be/1c_zrWY-PSY
 ### **Description:**
 This program is my final project for the CS50 course. It's an NFL strength of schedule web app which uses data from the 2020 and 2021 seasons to provide a base rating for each team going into the 2022 season and then it updates dynamically based on real-world results. Through data received from CSVs and an API, it processes results from the NFL and converts them via various functions into a rating between 1 and 5 that is applied to each team. This represents the current strength of the team based on the results that have come before.
 
