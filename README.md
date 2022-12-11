@@ -9,8 +9,8 @@ Through data received from an API, it processes up-to-date results from the NFL 
 First, clone this repository in the directory that you would like to store this project by running: 
 `git@github.com:BBarkworth/final-project.git`
 
-#### 2. Set up virtual environment and install Flask
-Install Flask by visiting this [site](https://flask.palletsprojects.com/en/2.2.x/installation/#install-flask) and following the instructions.
+#### 2. Set up a virtual environment and install Flask
+Set up a virtual environment and install Flask by visiting this [site](https://flask.palletsprojects.com/en/2.2.x/installation/#install-flask) and following the instructions.
 
 #### 3. Run Flask
 Enter `Flask run` in the command line in the project directory and follow the hyperlink to access a local version of this project.
