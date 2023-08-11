@@ -136,13 +136,14 @@ api_ratings = copy.deepcopy(scores)
 
 for i in range(1, 19):
     parameters= {
-        "year" : 2022,
+        "dates": 2022,
         "type": 2,
         "week": i,
         }
         # defaults to current week if no week is provided
+        # dates used to be year but the data has moved with the new season
     response = requests.get("http://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard", params = parameters, timeout=2.50)
-    if response.status_code == 200:
+    if response.status_code == 200 or response.status_code == 304:
         data = response.text
         parse_json = json.loads(data)
         counter = 0
@@ -196,7 +197,6 @@ for i in range(1, 19):
                         # scores are compared and processed through rating_change function and scores are updated in SQL
                     else:
                         continue
-                    
         api_week_values = rating(api_ratings)
         for key, value in api_week_values.items():
             cur.execute('UPDATE Fixtures set ratingone = ? WHERE teamone = ? AND week = ?', (value, key, i))
