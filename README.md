@@ -1,4 +1,9 @@
 # NFL Strength of Schedule Web App
+
+Note: This is an old project that needs updating to follow MVC and other best practices.
+
+-------------------------------
+
 ### **Background**
 This program is my final project for the CS50 course. It's a web app that uses data received from the 2020 and 2021 seasons to provide a base rating for each team going into the 2022 season. 
 
